@@ -1,3 +1,47 @@
-.nav{
-    display: flex;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* margin-top: 6px; */
+  background-color: lightcoral;
+  color: white;
+  text-decoration: none;
+  color: #f8c4c4;
+  cursor: pointer;
+}
+.lil {
+  margin-top: 6px;
+  list-style-type: none;
+  display: flex;
+  /* display: inline-block; */
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 0 5px;
+  color: black;
+}
+ul li a:hover {
+  color: #f8c4c4;
+}
+#search-bar {
+  margin-right: 0;
+}
+
+nav form {
+  color: black;
+}
+button {
+    padding: 4px 4px ;
+  border-radius: 15%;
+  cursor: pointer;
+  margin-top: 6px;
+  color: #f39797;
+  background-color: #eb5252;
+  margin-bottom: 5px;
 }
