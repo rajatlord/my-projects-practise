@@ -45,3 +45,32 @@ button {
   background-color: #eb5252;
   margin-bottom: 5px;
 }
+
+footer{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(to right , #eb5252 , #f39797) ;
+}
+footer div a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+footer div p {
+  text-align: center;
+  margin-top: 10px;
+}
+.svg{
+  text-align: center;
+}
+footer div svg{
+  margin: 0 10px;
+}
+.alinks {
+  text-align: center;
+}
+
+footer div a:hover{
+  color: black;
+}
