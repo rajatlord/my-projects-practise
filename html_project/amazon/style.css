@@ -9,6 +9,7 @@
     color: white;
     align-items: center;
     display: flex;
+    justify-content: space-evenly;
 }
 .nav-logo{
     height: 50px;
@@ -24,8 +25,7 @@
     border: 1.5px solid transparent ;
 }
 .border:hover{
-    border: 1.5px solid white;
-    
+    border: 1.5px solid white; /* this will work when hover */   
 }
 /* box-2 */
 .add-icon{
@@ -51,7 +51,11 @@
     justify-content: space-evenly;
 }
 .search-icon:hover{
-    color: #e37f00;
+    background-color: #e37f00;
+    width: 50px;
+    border-bottom-right-radius:5px;
+    border-top-right-radius:5px;
+    position: static;
 }
 .search-select{
     background-color: #f3f3f3;
@@ -65,14 +69,40 @@
     border: none;
     font-size: 1rem;    
 }
+.all{
+    font-size: 1rem;    
+}
+
 .search-icon{
     width: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.3rem;
-    color: black;
+    color:#0f1111 ;
 }
-
+.nav-search:hover{
+    border: 2px solid orangered;
+}
+/* box-4 */
+span{
+    font-size: 0.7rem;
+}
+.nav-signin{
+        font-size: 0.85rem;
+        font-weight: 700;
+}
+.nav-signin:hover{
+    border: 1.5px solid white; /* this will work when hover */   
+}
+ 
+/* box-5 */
+.nav-cart i {
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
 
 
