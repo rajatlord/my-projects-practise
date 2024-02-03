@@ -126,3 +126,12 @@ span{
     font-size: 0.9rem;
     font-weight: 700;
 }
+/* hero sections */
+.hero-section{
+    background-image: url(assets/allimg/hero_image.jpg);
+    color: black;
+    background-color: white;
+    background-size: cover;
+    /* display: flex; */
+    height: 500px;
+}
