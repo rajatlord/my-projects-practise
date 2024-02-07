@@ -8,3 +8,9 @@ r = requests.get(url)
 wdic = json.loads(r.text)
 print(wdic["main"]["temp"]) #here i got this code now with another logic
 
+if 'main' in wdic:
+    temperature_kelvin = wdic['main']['temp']
+    temperature_celsius = temperature_kelvin - 273.15  # Convert to Celsius
+    print(f"Temperature in {city}: {temperature_celsius:.2f}°C")
+else:
+    print("City not found or weather data unavailable.")
