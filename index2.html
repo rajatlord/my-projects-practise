@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hold Event Example</title>
+<style>
+  #holdable {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 200px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+  }
+
+  #holdable.held {
+    background-color: lightcoral !important; /* Ensure the style is applied */
+  }
+</style>
+</head>
+<body>
+
+<div id="holdable">Hold Me!</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var holdable = document.getElementById('holdable');
+  var holdTimer;
+
+  holdable.addEventListener('mousedown', function() {
+    holdTimer = setTimeout(function() {
+      holdable.classList.add('held');
+      // Action to perform after holding for a certain period
+      alert('Hold event triggered!');
+    }, 1000); // Change the duration as needed
+  });
+
+  holdable.addEventListener('mouseup', function() {
+    clearTimeout(holdTimer);
+    holdable.classList.remove('held');
+  });
+
+  // Additional event listeners for better user experience
+  holdable.addEventListener('mouseout', function() {
+    clearTimeout(holdTimer);
+    holdable.classList.remove('held');
+  });
+
+  holdable.addEventListener('touchstart', function() {
+    holdTimer = setTimeout(function() {
+      holdable.classList.add('held');
+      // Action to perform after holding for a certain period
+      alert('Hold event triggered!');
+    }, 1000); // Change the duration as needed
+  });
+
+  holdable.addEventListener('touchend', function() {
+    clearTimeout(holdTimer);
+    holdable.classList.remove('held');
+  });
+});
+</script>
+
+</body>
+</html>
+ 
