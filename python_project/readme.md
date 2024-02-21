@@ -28,14 +28,14 @@ class Person:
     def info(self):
         print(f"{self.name} is a {self.occupation}")
 
-# Create an instance of the Person class
+#Create an instance of the Person class
 a = Person()
 
-# Modify attributes
+#Modify attributes
 a.name = "Shubham"
 a.occupation = "Accountant"
 
-# Call the info method to print the information
+#Call the info method to print the information
 a.info()
 
 end.....
