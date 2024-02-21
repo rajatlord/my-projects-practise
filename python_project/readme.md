@@ -42,7 +42,7 @@ end.....
 The f"{...}" syntax is a formatted string literal in Python. It allows you to embed expressions inside curly braces {} within the string. When you prefix a string with f, you can directly insert Python expressions within {} to get their values formatted into the string.
 
 # Here's why we use self:
-Accessing Instance Variables: Inside class methods, you need to access instance variables (attributes) specific to that instance. Using self allows you to access these instance variables.
+    Accessing Instance Variables: Inside class methods, you need to access instance variables (attributes) specific to that instance. Using self allows you to access these instance variables.
 
     Calling Other Methods: self is used to call other methods within the same class. This allows methods to interact with each other and access each other's data.
 
