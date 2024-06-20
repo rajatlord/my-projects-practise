@@ -10,3 +10,4 @@ javasript
 react
 html and css 
 python and django
+updation will be strted from 20 june 2024
