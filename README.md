@@ -1,13 +1,13 @@
 # I AM Rajat AND U ❤
-HI there! 😉 <br>
-this will work like my work book here i add everthing that i learn <br>
+Hi there! 😉 <br>
+this will work like my workbook here I add everthing that I learn <br>
 <br>
 <h1> Here ❤ i add tut for me 😅 also in future i will also upload links to it </h1>
 this is my code diary bye 🙋‍♂️
 <br>
 </h2>working directory</h2>
-javasript 
+javascript 
 react
-html and css 
-python and django
-updation will be strted from 20 june 2024
+HTML and CSS 
+python and Django
+updation will be started from 20 June 2024
