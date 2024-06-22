@@ -1,6 +1,6 @@
 # I AM Rajat AND U ❤
 Hi there! 😉 <br>
-this will work like my workbook here I add everthing that I learn <br>
+this will work like my workbook here I add everything that I learn <br>
 <br>
 <h1> Here ❤ i add tut for me 😅 also in future i will also upload links to it </h1>
 this is my code diary bye 🙋‍♂️
