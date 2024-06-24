@@ -1,4 +1,5 @@
 import "./index.css"
+import Round from "./Round";
 
 
 
@@ -19,6 +20,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Round/>
     </div>
   );
 }
