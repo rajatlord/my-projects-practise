@@ -1,9 +1,13 @@
+import "./index.css"
+
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p style={{color:"black" , backgroundColor:"#ccc"}}>
+        {/* <p style={{color:"black" , backgroundColor:"#ccc"}}> */}
+        <p>
           Edit <code >src/App.js</code> and save to reload.
         </p>
         <a
