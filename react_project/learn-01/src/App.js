@@ -1,5 +1,5 @@
 import "./index.css"
-import Round from "./Round";
+
 
 
 
@@ -7,7 +7,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <p style={{color:"black" , backgroundColor:"#ccc"}}> */}
         <p>
           Edit <code >src/App.js</code> and save to reload.
         </p>
@@ -19,8 +18,11 @@ function App() {
         >
           Learn React
         </a>
+        <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
       </header>
-      <Round/>
+      
     </div>
   );
 }
