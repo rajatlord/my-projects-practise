@@ -1,10 +1,19 @@
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import { useEffect } from 'react'
 
 function App() {
   const [count, setCount] = useState(0)
+
+   const a = useRef(0)
+
+  useEffect(()=>
+  {
+    a.current = a.current + 1
+    console.log(`rerendering and the count ${a.current}`)
+  });
 
   return (
     <>
