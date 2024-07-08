@@ -14,5 +14,3 @@ this is my code diary bye 🙋‍♂️
   <li>python and Django</li>
   <li>Node.js and Express.js</li>
 </ul>
-
-updation will be started from 20 June 2024
