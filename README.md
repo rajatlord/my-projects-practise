@@ -14,4 +14,3 @@ this is my code diary bye 🙋‍♂️
   <li>python and Django</li>
   <li>Node.js and Express.js</li>
 </ul>
-node.ja and express.js are in same folder 
