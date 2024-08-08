@@ -2,3 +2,5 @@
 20240807	12:01:41	f76fe9f0-5130-4f84-abb0-56f1bab6a259	TypeError: Cannot read properties of undefined (reading 'lastname')
 20240807	12:02:03	8da8094e-1047-4612-b688-4e4ddea73731	TypeError: Cannot read properties of undefined (reading 'lastname')
 20240807	12:02:45	5f0b4ea5-1058-4c6a-a6ca-f53d0fc99b4e	TypeError: Cannot read properties of undefined (reading 'lastname')
+20240808	10:39:20	dda6e906-c7bd-4888-843a-2bd91d71ee87	SyntaxError: Expected double-quoted property name in JSON at position 14
+20240808	10:39:34	0ad18442-ce47-4738-ab1c-edf1495a2765	SyntaxError: Expected double-quoted property name in JSON at position 16

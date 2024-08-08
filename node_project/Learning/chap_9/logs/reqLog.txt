@@ -54,3 +54,6 @@
 20240807	12:01:41	8d5f672b-0953-481a-b3a3-75dadf3ffff6	POST	undefined	/employees
 20240807	12:02:03	987b96c9-806a-4b00-a908-34adcf914593	POST	undefined	/employees
 20240807	12:02:45	55f46435-c0bd-461a-ba7c-33a97d9722e1	POST	undefined	/employees
+20240808	10:38:32	0df2b134-720b-4768-b874-8ee3e7baf6d2	POST	undefined	/employees
+20240808	10:39:20	6f3d0d2f-f02f-4c0b-84b6-a336d8fbbe5b	DELETE	undefined	/employees
+20240808	10:39:34	ee8040b9-bab0-4452-af29-0f9866989f74	DELETE	undefined	/employees
