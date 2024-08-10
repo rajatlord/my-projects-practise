@@ -6,6 +6,7 @@ const corsOptions = require('./config/corsOptions');
 const { logger } = require('./middleware/logEvents');
 const errorHandler = require('./middleware/errorHandler');
 const PORT = process.env.PORT || 3500;
+const verifyJwt = require('./middleware/verifyJwt');
 
 // custom middleware logger
 app.use(logger);
@@ -26,6 +27,8 @@ app.use('/', express.static(path.join(__dirname, '/public')));
 app.use('/', require('./routes/root'));
 app.use('/register', require('./routes/register'));
 app.use('/auth', require('./routes/auth'));
+
+app.use(verifyJwt);
 app.use('/employees', require('./routes/api/employees'));
 
 app.all('*', (req, res) => {
