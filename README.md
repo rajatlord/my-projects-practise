@@ -13,4 +13,5 @@ this is my code diary bye 🙋‍♂️
   <li>HTML and CSS</li>
   <li>python and Django</li>
   <li>Node.js and Express.js</li>
+  <li>Mongo DB </li>
 </ul>
