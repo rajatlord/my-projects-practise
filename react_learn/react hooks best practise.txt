@@ -1,0 +1,10 @@
+
+From pedrotech
+https://www.youtube.com/watch?v=0Z7B4XpJ65w&t=100s
+2. over memozied of function 
+3. when you should create custom hook 
+
+top 6 react hook mistake beginners make 
+https://www.youtube.com/watch?v=GGo3MVBFr1A
+from web dev simplified 
+1. 
